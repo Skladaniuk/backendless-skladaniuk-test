@@ -1,0 +1,21 @@
+.dummyTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.dummyTable th, .dummyTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dummyTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.dummyTable td {
+    font-size: xx-large;
+    background-color: #595959;
+    color: white;
+}

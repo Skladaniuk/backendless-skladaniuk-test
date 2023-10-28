@@ -1,0 +1,11 @@
+.listItem:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+.listItem{
+    font-weight: 500;
+    font-size: xx-large;
+    color: #FFFFFF;
+    list-style: none;
+}

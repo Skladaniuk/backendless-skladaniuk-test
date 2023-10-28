@@ -1,0 +1,49 @@
+.tabItemWrapper:not(:last-child){
+margin-right: 10px;
+
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabItemWrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 8px;
+border-radius: 5px;
+height: 35px;
+padding: 20px;
+background-color: #595959;
+
+
+&:hover,
+&:focus{
+    background-color:#8FD7C1;
+}
+}
+
+.tabItem {
+    font-size: xx-large;
+    color: #FFFFFF;
+    text-decoration: none;
+    .tabItemWrapper:hover &,
+    .tabItemWrapper:focus & {
+        color: #FFFFFF;;
+
+    }
+}
+
+.active{
+    background-color: #8FD7C1 !important;
+    
+}
+body{
+    background-color: #22232D;
+}
+
+a:link {
+    text-decoration: none;
+}
+
